@@ -1,144 +1,100 @@
-📌 Project Overview
+# 🏦 OOP Banking System (Python)
 
-This project demonstrates:
+A simple console-based banking system built using **Object-Oriented Programming (OOP) in Python**.  
+This project simulates basic ATM operations like credit, debit, balance enquiry, and transaction history.
 
-Real-world use of OOP principles
+---
 
-Clean separation of logic using multiple Python modules
+## 📌 Project Description
 
-State management using class attributes
+This project demonstrates the practical use of Python OOP concepts by implementing a small banking/ATM system.  
+It is beginner-friendly and suitable for learning, practice, and interview preparation.
 
-A looping ATM menu for continuous user interaction
+---
 
-It is beginner-friendly yet structured enough to show good coding practices.
+## ⚙️ Features
 
-⚙️ Features
+- Create bank account with account number and initial balance  
+- Credit amount to account  
+- Debit amount with balance validation  
+- Check current balance  
+- View transaction history  
+- Menu-driven console interface  
 
-Create a bank account with account number and opening balance
+---
 
-Debit money with balance validation
+## 🧠 OOP Concepts Used
 
-Credit money with amount validation
+- Class and Object  
+- Constructor (`__init__`)  
+- Encapsulation  
+- Instance variables and methods  
+- Modular programming  
 
-Check current balance
+---
 
-View full transaction history
+## 📂 Project Structure
 
-Continuous ATM menu until user exits
-
-🧠 OOP Concepts Used
-
-Class & Object
-
-Encapsulation
-
-Constructor (__init__)
-
-Instance variables
-
-Method-based design
-
-Modular programming
-
-📂 Project Structure
-OOPS-Banking-System/
+```
+oops_banking_project/
 │
-├── bank.py        # Bank class (core business logic)
-├── atm.py         # ATM operations & menu handling
+├── bank.py        # Bank class and core logic
+├── atm.py         # ATM menu and user interaction
 ├── main.py        # Program entry point
-└── README.md      # Project documentation
+├── .gitignore
+└── README.md
+```
 
-🧾 File Description
-bank.py
+---
 
-Contains the Bank class which handles:
+## ▶️ How to Run the Project
 
-Account number
+1. Clone the repository:
+```bash
+git clone https://github.com/Satyadarshverma/oops_banking_project.git
+```
 
-Balance
+2. Navigate to the project folder:
+```bash
+cd oops_banking_project
+```
 
-Transaction list
-
-Debit & credit logic
-
-Balance and transaction retrieval
-
-atm.py
-
-Handles:
-
-User input
-
-ATM menu
-
-Calls bank class methods
-
-Continuous operation loop
-
-main.py
-
-Entry point of the application
-
-Starts the ATM system
-
-▶️ How to Run the Project
-Step 1: Clone the Repository
-git clone https://github.com/your-username/OOPS-Banking-System.git
-
-Step 2: Navigate to Project Folder
-cd OOPS-Banking-System
-
-Step 3: Run the Program
+3. Run the program:
+```bash
 python main.py
+```
 
-🖥️ Sample Output
-Enter Account Number: 101
-Enter Starting Balance: 5000
+---
 
+## 🖥️ Sample Menu
+
+```
 --- ATM MENU ---
 1. Debit
 2. Credit
 3. Check Balance
 4. Transaction History
 5. Exit
+```
 
-🚫 Validations Implemented
+---
 
-Cannot debit more than available balance
+## 🚀 Future Improvements
 
-Cannot credit or debit zero / negative amounts
+- Web version using Flask  
+- Database integration  
+- User authentication  
+- Multiple account support  
 
-Handles invalid menu choices safely
+---
 
-🚀 Future Enhancements (Optional)
+## 👨‍💻 Author
 
-Flask web interface
+**Satyadarsh Verma**  
+B.Tech Student | Python | OOP  
 
-Database integration (SQLite/MySQL)
+---
 
-User authentication (PIN-based login)
-
-Multiple accounts support
-
-File-based transaction storage
-
-REST API version using FastAPI
-
-🎯 Who This Project Is For
-
-Python beginners learning OOP
-
-Students preparing for interviews
-
-Anyone wanting a real mini-project for GitHub
-
-OOP practice with practical logic
-
-🧑‍💻 Author
-
-Vivaan
-Python | OOP | Backend Enthusiast
-
-📜 License
+## 📜 License
 
 This project is open-source and free to use for learning purposes.
